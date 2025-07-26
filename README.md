@@ -40,36 +40,24 @@ sales_etl_project/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ How to Run
 
 ### 🔹 1. Set Up Environment
 
-```bash
 python -m venv streamlit_env
-streamlit_env\Scripts\activate     # On Windows
+streamlit_env\Scripts\activate # On Windows
 pip install -r requirements.txt
 💡 If requirements.txt doesn’t exist yet, generate it:
 
-bash
-Copy
-Edit
 pip freeze > requirements.txt
 🔹 2. Run the ETL Pipeline
-bash
-Copy
-Edit
+
 cd etl
 python load.py
 🔹 3. Launch the Dashboard
-bash
-Copy
-Edit
+
 cd ..
 streamlit_env\Scripts\streamlit run dashboard/streamlit_dashboard.py
 🌐 Links
@@ -86,4 +74,7 @@ Final Project – TripleTen Bootcamp
 MS in Software Engineering – University of Maryland Global Campus
 
 Passionate about building data-driven solutions that merge medicine, science, and technology.
+
+```
+
 ```
